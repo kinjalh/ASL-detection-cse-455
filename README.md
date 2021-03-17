@@ -3,7 +3,7 @@ Final project for CSE 455 - sign language detection primarily using NN
 
 # Video Submission
 
-**Add video submission link here**
+[Video Link](https://youtu.be/A1BSlHbufRE)
 
 # The Problem
 
