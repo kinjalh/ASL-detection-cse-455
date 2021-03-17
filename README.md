@@ -19,7 +19,9 @@ We decided to compare two different neural net approaches, one that had some pre
 
 # Results
 
-With our end to end CNN we were able to get an accuracy of about 88% on the testing data, whereas with our preprocessing + NN model we got an accuracy of **FILL IN HERE**. As for our real time predictions, they weren't as accurate as we had hoped for either model. We think this is probably because the images that we trained off of were taken in very specific settings, and the variation in skin tones and angles were minimal so it's likely that the model was not exposed to enough differences to be able to distinguish the sign accurately from our varying backgrounds and skin tones. 
+With our end to end CNN we were able to get an accuracy of about 88% on the testing data, whereas with our preprocessing + NN model we got an accuracy of 74%. Both had high accuracy on training data (above 95%), so both overfit to the training set although to different extents. The CNN likely overfit less since trainable convolution layers combined with pooling layers help extract features even if there are some minor differences in images, while the non-convolutional ANN relies on exact pixels being certain values (or very close to certain values).
+
+As for our real time predictions, they weren't as accurate as we had hoped for either model. We think this is probably because the images that we trained off of were taken in very specific settings, and the variation in skin tones and angles were minimal so it's likely that the model was not exposed to enough differences to be able to distinguish the sign accurately from our varying backgrounds and skin tones. 
 
 # Next Steps
 
