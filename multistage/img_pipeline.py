@@ -124,6 +124,6 @@ if __name__ == "__main__":
     #     save_file="model.pt"
     # )
 
-    model = torch.load("model.pt")
+    model = torch.load("model_multistage.pt")
     test_model_acc(model, TRAIN_CSV, 'TRAIN')
     test_model_acc(model, TEST_CSV, 'TEST')

@@ -4,7 +4,7 @@ import torch
 import src.asl_nn as asl_nn
 import src.asl_img_process as img_proc
 
-MODEL_FILE = "model.pt"
+MODEL_FILE = "model_multistage.pt"
 IMG_FILE = "q.jpg"
 
 model = torch.load(MODEL_FILE)
